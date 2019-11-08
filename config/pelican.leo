@@ -30,7 +30,7 @@
 </v>
 <v t="yen.20170224232341.1"><vh>編輯 template</vh>
 <v t="leo.20180115093448.1"><vh>@path theme/attila/templates</vh>
-<v t="leo.20180715212936.1"><vh>@edit article.md</vh></v>
+<v t="leo.20180715212936.1"><vh>@edit article.html</vh></v>
 <v t="leo.20180115093536.1"><vh>@edit base.html</vh></v>
 <v t="leo.20180115093657.1"><vh>@edit search.html</vh></v>
 <v t="leo.20180115093715.1"><vh>@edit archives.html</vh></v>
