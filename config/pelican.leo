@@ -100,7 +100,7 @@ g.es("admin pelican Github 執行完畢")
 
 課程網誌: &lt;a href="https://s40723115.github.io/cad2019/blog/index.html&lt;/a&gt;
 
-期中影片:&lt;a href="&lt;/a&gt;
+期中影片:&lt;a href="https://www.youtube.com/watch?v=F8SEtoxbIB0&lt;/a&gt;
 </t>
 <t tx="leo.20180115142025.1"></t>
 <t tx="yen.20170108171605.1"></t>
