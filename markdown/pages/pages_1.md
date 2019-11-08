@@ -1,14 +1,12 @@
 Title: About
 
-## CMSimfly 內容管理網誌
+## Cmsimde 電腦輔助設計
 
-課程倉儲: <a href="https://github.com/chiamingyen/cmsimfly">https://github.com/chiamingyen/cmsimfly</a>
+課程倉儲: <a href="https://github.com/s40723115/cad2019</a>
 
-內容管理: <a href="https://chiamingyen.github.io/cmsimfly/">https://chiamingyen.github.io/cmsimfly/</a>
+內容管理: <a href="https://s40723115.github.io/cad2019/content/index.html</a>
 
-課程投影片: <a href="https://chiamingyen.github.io/cmsimfly/reveal">https://chiamingyen.github.io/cmsimfly/reveal</a>
-
-課程網誌: <a href="https://chiamingyen.github.io/cmsimfly/blog">https://chiamingyen.github.io/cmsimfly/blog</a>
+課程網誌: <a href="https://s40723115.github.io/cad2019/blog/index.html</a>
 
 
 
