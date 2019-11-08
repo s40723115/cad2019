@@ -63,7 +63,7 @@
 </v>
 <v t="leo.20170710022054.1"><vh>可以另建節點存放 markdown 目錄下的 md 檔案</vh></v>
 <v t="leo.20170710022041.1"><vh>@path markdown</vh>
-<v t="leo.20180115115910.1"><vh>2019電腦輔助設計</vh></v>
+<v t="leo.20180115115910.1"><vh>@2019 cmsimde.md</vh></v>
 </v>
 <v t="yen.20170108171733.83"><vh>產生 .key 與 .crt 指令</vh></v>
 </v>
@@ -72,7 +72,63 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20170709015940.1"></t>
-<t tx="leo.20170709015947.1"></t>
+<t tx="leo.20170709015947.1">@language python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- #
+from __future__ import unicode_literals
+
+# This file is only used if you use `make publish` or
+# explicitly specify it as your config file.
+
+import os
+import sys
+sys.path.append(os.curdir)
+from pelicanconf import *
+
+# 因為 publishconf.py 在 pelicanconf.py 之後, 因此若兩處有相同變數的設定, 將以較後讀入的 publishconf.py 中的設定為主.
+
+# 將所有靜態 html 檔案移到 blog 子目錄
+SITEURL = 'https://s40723115.github.io/cad2019/blog'
+# 此設定用於將資料送到 gh-pages, 因此使用絕對 URL 設定
+RELATIVE_URLS = False
+
+THEME = 'theme/attila'
+BOOTSTRAP_THEME = 'united'
+COLOR_SCHEME_CSS = 'tomorrow_night.css'
+
+
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+#CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+
+DELETE_OUTPUT_DIRECTORY = True
+
+# Following items are often useful when publishing
+
+DISQUS_SITENAME = ""
+DISQUS_DISPLAY_COUNTS = False
+#GOOGLE_ANALYTICS = ""
+
+# 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
+DEFAULT_DATE = 'fs'
+
+# 遠端的 code hightlight
+#MD_EXTENSIONS = ['fenced_code', 'extra', 'codehilite(linenums=True)']
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
+
+# 若要依照日期存檔呼叫
+#ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+#ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+PAGE_URL = 'pages/{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
+SHOW_ARTICLE_AUTHOR = True</t>
 <t tx="leo.20170709020600.1"></t>
 <t tx="leo.20170709224430.1">@language python
 import os
@@ -92,7 +148,9 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20170908162904.1"></t>
 <t tx="leo.20180115093448.1"></t>
 <t tx="leo.20180115093726.1"></t>
-<t tx="leo.20180115115910.1">## Cmsimde 電腦輔助設計
+<t tx="leo.20180115115910.1">@language md
+---
+## Cmsimde 電腦輔助設計
 
 課程倉儲: &lt;a href="https://github.com/s40723115/cad2019&lt;/a&gt;
 
