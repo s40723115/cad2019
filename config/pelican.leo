@@ -63,12 +63,7 @@
 </v>
 <v t="leo.20170710022054.1"><vh>可以另建節點存放 markdown 目錄下的 md 檔案</vh></v>
 <v t="leo.20170710022041.1"><vh>@path markdown</vh>
-<v t="leo.20180115115910.1"><vh>2018</vh>
-<v t="leo.20180423103639.1"><vh>2018 Fall CP 課程</vh>
-<v t="leo.20180423103656.1"><vh>@edit 20180910.md</vh></v>
-<v t="leo.20180909205246.1"><vh>@edit 20180911.md</vh></v>
-</v>
-</v>
+<v t="leo.20180115115910.1"><vh>2019電腦輔助設計</vh></v>
 </v>
 <v t="yen.20170108171733.83"><vh>產生 .key 與 .crt 指令</vh></v>
 </v>
@@ -97,9 +92,17 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20170908162904.1"></t>
 <t tx="leo.20180115093448.1"></t>
 <t tx="leo.20180115093726.1"></t>
-<t tx="leo.20180115115910.1"></t>
+<t tx="leo.20180115115910.1">## Cmsimde 電腦輔助設計
+
+課程倉儲: &lt;a href="https://github.com/s40723115/cad2019&lt;/a&gt;
+
+內容管理: &lt;a href="https://s40723115.github.io/cad2019/content/index.html&lt;/a&gt;
+
+課程網誌: &lt;a href="https://s40723115.github.io/cad2019/blog/index.html&lt;/a&gt;
+
+期中影片:&lt;a href="&lt;/a&gt;
+</t>
 <t tx="leo.20180115142025.1"></t>
-<t tx="leo.20180423103639.1"></t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
