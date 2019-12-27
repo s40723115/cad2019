@@ -147,18 +147,29 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content"> <a href='Develop.html'>Next</a> >> Develop<br /><h1>About</h1>
-<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
-<h4>利用 cmsimde 建立靜態網誌方法:</h4>
-<p>1. 在 github 建立倉儲, git clone 到近端</p>
-<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
-<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
-<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
-<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
-<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
-<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
-<br /> <a href='Develop.html'>Next</a> >> Develop</div>
+    <div id="tipue_search_content">模擬 << <a href='模擬.html'>Previous</a> <a href='Webots Tutorial.html'>Next</a> >> Webots Tutorial<br /><h1>Webots</h1>
+<p><span>Webots的開發始於1996年12月</span><a href="http://www.epfl.ch/" target="_blank"><span>在洛桑</span></a><span>的<a href="http://www.epfl.ch/" target="_blank">瑞士聯邦技術學院（EPFL），</a>當時Olivier Michel被Jean-Daniel Nicoud教授聘為博士後研究員。</span></p>
+<p><span><span>該公司成立於1998年，是從EPFL的MicroComputing and Interface Lab（LAMI）衍生出來的。</span><span>Cyberbotics的最初導師包括Jean-Daniel Nicoud教授，Francesco Mondada教授和Takashi Gomi博士。</span></span></p>
+<p><span><span>從一開始，Webots就被行業（Sony Corp.）和大學用於研究和教育目的。</span></span></p>
+<p><span><span>在2018年12月，Webots已成為根據</span></span><a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank"><span><span>Apache 2.0許可</span></span></a><span><span>條款發行的免費開源軟件<span> </span></span><span>。</span></span></p>
+<p><span><span>如今，Webots已在全球成千上萬的組織中使用，包括行業和學術界。</span></span></p>
+<p><span><span><a href="https://drive.google.com/file/d/1MolDH7kKJt_IIBTrKalsMfNWMrqqTWdt/view?usp=sharing">Webots_2019b_rev1.7z</a><span><span> </span></span></span></span></p>
+<h4><span>Webots 啟動條件:</span></h4>
+<p>1.<span>將start_mdecourse.bat 中加入執行路徑:</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">set path_webots=%Disk%:\Webots_2019b_rev1\msys64\mingw64\bin;%Disk%:\Webots_2019b_rev1\msys64\usr\bin</pre>
+<p>並在 y:\ 根目錄建立 start_webots.bat, 內容為:</p>
+<div>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">start Y:\Webots_2019b_rev1\msys64\mingw64\bin\webots.exe</pre>
+</div>
+<p><span>隨身程式系統納入上述兩個條件後, 可以直接在命令列輸入 start_webots.bat 啟動</span></p>
+<p>2.亦可在與data同目錄下建立<span>start_webots.bat, 內容為:</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">@echo off
+set Disk=y
+subst %Disk%: "data"
+
+start %Disk%:Webots_2019b_rev1\msys64\mingw64\bin\webots.exe</pre>
+<p></p>
+<br />模擬 << <a href='模擬.html'>Previous</a> <a href='Webots Tutorial.html'>Next</a> >> Webots Tutorial</div>
         
     <!-- footer -->
       <div class="container">
